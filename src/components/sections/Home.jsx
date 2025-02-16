@@ -1,5 +1,7 @@
+import { RevealOnScroll } from '../RevealOnScroll';
 export const Home = () => {
     return <section id="home" className="min-h-screen flex items-center justify-center relative">
+        <RevealOnScroll>
         <div className="text-center z-10 px-4">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-gray-600 to-green-600 bg-clip-text text-transparent leading-right">
                 Hi!, I'm Jay
@@ -19,5 +21,6 @@ export const Home = () => {
                 </a>
             </div>
         </div>
+        </RevealOnScroll>
     </section>
 }
